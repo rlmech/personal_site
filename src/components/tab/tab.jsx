@@ -1,14 +1,10 @@
 import React, {Component} from 'react';
+import './tab.css'
 
 class Tab extends Component {
-
-    styles = {
-        
-    }
-
-    render(){
+    render() {
         return (
-            <h1>Test tab</h1>
+            <h1>Tab</h1>
         );
     }
 }

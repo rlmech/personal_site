@@ -1,0 +1,21 @@
+.about-screen {
+    background-color: var(--color-bg);
+    height: 100vh;
+    position: relative;
+}
+
+.about-fg {
+    background-color: var(--color-fg-2);
+    width: 96%;
+    height: 100%;
+    /* Center div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-fg h1 {
+    text-align: center;
+    
+}
