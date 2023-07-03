@@ -1,7 +1,5 @@
 .welcome-screen {
-    background-color: var(--color-bg);
     height: 100vh;
-    min-width: 350px;
     position: relative;
 }
 
