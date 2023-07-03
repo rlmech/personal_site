@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 500px) {
     .welcome-text p {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .welcome-navbar {
@@ -76,7 +76,6 @@
     }
 
     .welcome-navbar-list li {
-        font-size: 1rem;
         padding: 0.5rem;
     }
 }
