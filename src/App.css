@@ -5,6 +5,7 @@
 }
 
 body {
+  min-width: 350px;
   background: var(--color-bg);
 }
 
@@ -12,8 +13,4 @@ a, ul, li {
   color: var(--color-text-2);
   text-decoration: none;
   list-style-type: none;
-}
-
-@media screen and (max-width: 700px) {
-  
 }
