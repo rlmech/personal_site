@@ -3,7 +3,13 @@ import './experience.css'
 
 const Experience = () => {
     return (
-        <h1>Experience</h1>
+        <div className="page-screen-background" id="experience">
+            <div className="page-foreground">
+                <div className="page-title">
+                        <p>Experience</p>
+                </div>
+            </div>
+        </div>
     );
 }
 

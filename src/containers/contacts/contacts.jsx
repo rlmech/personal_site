@@ -9,7 +9,13 @@ import './contacts.css';
 const Contacts = () => {
 
     return (
-        <h1>Contacts</h1>
+        <div className="page-screen-background" id="contacts">
+            <div className="page-foreground">
+                <div className="page-title">
+                    <p>Contacts</p>
+                </div>
+            </div>
+        </div>
     );
 
     // render() {

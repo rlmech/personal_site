@@ -1,12 +1,16 @@
 import React, {Component} from 'react';
 import './projects.css'
 
-class Projects extends Component {
-    render() {
-        return (
-            <h1>Projects</h1>
-        );
-    }
+const Projects = () => {
+    return (
+        <div className="page-screen-background" id="projects">
+            <div className="page-foreground">
+                <div className="page-title">
+                    <p>Projects</p>
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default Projects;
