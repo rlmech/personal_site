@@ -16,7 +16,7 @@ const Welcome = () => {
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#projects">PROJECTS</a></li>
                         <li><a href="#experience">EXPERIENCE</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="#contacts">CONTACT</a></li>
                     </ul>
                 </div>
 
