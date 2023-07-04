@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './welcome.css';
-import { Navbar } from '../../components';
 
 const Welcome = () => {
     return (
