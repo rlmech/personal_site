@@ -20,9 +20,9 @@ const About = () => {
                     <p>My pastimes include eating, hanging out with friends, asking random questions about life, 
                         and playing games like Chess, Valorant, Terraria, etc.</p>
                 </div>
-                <img src = {Peter} className="petr_img"></img>
+                <img src = {Peter} alt="Pic of UCI Mascot Peter the Anteater" className="petr_img"></img>
                 <div className="robert_img">
-                    <img src = {Robert}></img>
+                    <img src = {Robert} alt="Pic of Robert Lauv"></img>
                 </div>
             </div>
         </div>

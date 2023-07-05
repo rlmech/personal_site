@@ -15,22 +15,22 @@ const Projects = () => {
                     <ul className="projects-list">
                         <li>
                             <div>
-                                <a href={'https://github.com/rlmech/personal_site'} target='_blank'>
-                                    <img src={PersonalSite}></img>
+                                <a href={'https://github.com/rlmech/personal_site'} rel="noreferrer" target='_blank'>
+                                    <img src={PersonalSite} alt="Pic of new personal site home page"></img>
                                 </a>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <a href={'https://github.com/rlmech/ZotsPerMinute'} target='_blank'>
-                                    <img src={ZotsPerMinute}></img>
+                                <a href={'https://github.com/rlmech/ZotsPerMinute'} rel="noreferrer" target='_blank'>
+                                    <img src={ZotsPerMinute} alt="Pic of ZotsPerMinute home screen"></img>
                                 </a>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <a href={'https://github.com/rlmech/rlmech.github.io'} target='_blank'>
-                                    <img src={OldSite}></img>
+                                <a href={'https://github.com/rlmech/rlmech.github.io'} rel="noreferrer" target='_blank'>
+                                    <img src={OldSite} alt="Pic of old personal site home page"></img>
                                 </a>
                             </div>
                         </li>
