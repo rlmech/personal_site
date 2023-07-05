@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './about.css'
 import '../general-styles/page.css'
 import Peter from '../../assets/imgs/BCeater-right.png'

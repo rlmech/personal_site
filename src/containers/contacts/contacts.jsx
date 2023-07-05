@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './contacts.css';
 
 // import linkedin_icon from '../../assets/svgs/linkedin.svg'

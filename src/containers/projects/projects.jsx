@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './projects.css'
 import PersonalSite from '../../assets/imgs/project_personal_site.jpg'
 import ZotsPerMinute from '../../assets/imgs/project_zotsperminute.png'
