@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import { Welcome, About, Experience, Projects, Contacts } from './containers';
 // import { Navbar, Button, Tab } from './components';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
+
+
 
 class App extends Component {
   render() {

@@ -13,10 +13,11 @@ const Welcome = () => {
 
                 <div className="welcome-navbar">
                     <ul className="welcome-navbar-list">
-                        <li><Link to="about">ABOUT</Link></li>
-                        <li><Link to="projects">PROJECTS</Link></li>
-                        <li><Link to="experience">EXPERIENCE</Link></li>
-                        <li><Link to="contacts">CONTACT</Link></li>
+                        <li><Link to="/">HOME</Link></li>
+                        <li><Link to="/about">ABOUT</Link></li>
+                        <li><Link to="/projects">PROJECTS</Link></li>
+                        <li><Link to="/experience">EXPERIENCE</Link></li>
+                        <li><Link to="/contacts">CONTACT</Link></li>
                     </ul>
                 </div>
 
