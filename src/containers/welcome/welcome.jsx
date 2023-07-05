@@ -1,12 +1,14 @@
 import React from 'react';
 import './welcome.css';
 import { Link } from 'react-router-dom';
+// import { Navbar } from '../../components'
 
 const Welcome = () => {
     return (
         <div className="welcome-screen">
+
             <div className="welcome-fg">
-                
+                {/* <Navbar /> */}
                 <div className="welcome-text">
                     <p>WELCOME</p>
                 </div>

@@ -1,0 +1,14 @@
+.navbar {
+    /* position: relative; */
+    background: var(--color-fg-2);
+    top: 10px;
+    left: 40px;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
