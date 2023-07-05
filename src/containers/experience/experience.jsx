@@ -8,6 +8,10 @@ const Experience = () => {
                 <div className="page-title">
                         <p>Experience</p>
                 </div>
+                <div className="experience-sections">
+                    <div className="work-experience"></div>
+                    <div className="volunteer-experience"></div>
+                </div>
             </div>
         </div>
     );
