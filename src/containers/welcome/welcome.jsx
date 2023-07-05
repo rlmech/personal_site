@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './welcome.css';
+import { Link } from 'react-router-dom';
 
 const Welcome = () => {
     return (
@@ -12,10 +13,10 @@ const Welcome = () => {
 
                 <div className="welcome-navbar">
                     <ul className="welcome-navbar-list">
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#projects">PROJECTS</a></li>
-                        <li><a href="#experience">EXPERIENCE</a></li>
-                        <li><a href="#contacts">CONTACT</a></li>
+                        <li><Link to="about">ABOUT</Link></li>
+                        <li><Link to="projects">PROJECTS</Link></li>
+                        <li><Link to="experience">EXPERIENCE</Link></li>
+                        <li><Link to="contacts">CONTACT</Link></li>
                     </ul>
                 </div>
 
