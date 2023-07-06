@@ -11,7 +11,9 @@ function Navbar () {
 
     return (
         <nav className="navbar">
-            <p className="navbar-icon" onClick={toggleActive}>&gt;&gt;</p>
+            <div className="navbar-icon" onClick={toggleActive}>
+                <p>&lt;&lt;</p>
+            </div>
             {(navActive) && (
             <ul className="navbar-list">
                 <li><Link to="/">HOME</Link></li>
