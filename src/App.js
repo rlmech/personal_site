@@ -8,7 +8,9 @@ function NotFound (){
   return (
     <div className="NotFoundPage">
       <Navbar />
-      <p>Page does not exist</p>
+      <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
+        <p>The page you are trying to reach does not exist.</p>
+      </div>
     </div>
   )
 }
