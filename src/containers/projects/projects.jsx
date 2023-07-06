@@ -3,6 +3,7 @@ import './projects.css'
 import PersonalSite from '../../assets/imgs/project_personal_site.jpg'
 import ZotsPerMinute from '../../assets/imgs/project_zotsperminute.png'
 import OldSite from '../../assets/imgs/project_old_site.jpg'
+import { Navbar } from '../../components'
 
 const Projects = () => {
     return (
@@ -42,6 +43,7 @@ const Projects = () => {
                     </ul>
                 </div>
             </div>
+            <Navbar />
         </div>
     );
 }

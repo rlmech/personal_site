@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Welcome, About, Experience, Projects, Contacts } from './containers';
-// import { Navbar, Button, Tab } from './components';
+import { Navbar } from './components';
 import { Routes, Route } from 'react-router-dom';
 
-
+function NotFound (){
+  return (
+    <div className="NotFoundPage">
+      <Navbar />
+      <p>Page does not exist</p>
+    </div>
+  )
+}
 
 class App extends Component {
   render() {
@@ -16,6 +23,7 @@ class App extends Component {
           <Route path="/projects" element={ <Projects /> } />
           <Route path="/experience" element={ <Experience /> } />
           <Route path="/contacts" element={ <Contacts /> } />
+          <Route path="*" element={ <NotFound /> } />
         </Routes>
       </div>
     );

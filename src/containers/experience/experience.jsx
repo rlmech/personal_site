@@ -1,5 +1,6 @@
 import React from 'react';
 import './experience.css'
+import { Navbar } from '../../components'
 
 const Experience = () => {
     return (
@@ -13,6 +14,7 @@ const Experience = () => {
                     <div className="volunteer-experience"></div>
                 </div>
             </div>
+            <Navbar />
         </div>
     );
 }

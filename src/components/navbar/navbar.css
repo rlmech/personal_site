@@ -1,14 +1,31 @@
 .navbar {
-    /* position: relative; */
+    position: absolute;
+    display: flex;
+    width: 10rem;
+    height: 100vh;
+    flex-direction: column;
     background: var(--color-fg-2);
-    top: 10px;
-    left: 40px;
+    right: 0px;
+    box-shadow: -3px 0 3px 1px;
+}
+
+.navbar-icon {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 5%;
 }
 
 .navbar-list {
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
+    flex-direction: column;
+    transition: 0.5s ease-out;
+}
+
+.navbar-list li {
+    padding: 10%;
+}
+
+.navbar-list li:hover {
+    background: var(--color-fg-1);
 }

@@ -3,6 +3,7 @@ import './about.css'
 import '../general-styles/page.css'
 import Peter from '../../assets/imgs/BCeater-right.png'
 import Robert from '../../assets/imgs/robert_img.jpg'
+import { Navbar } from '../../components'
 
 const About = () => {
     return (
@@ -25,6 +26,7 @@ const About = () => {
                     <img src = {Robert} alt="Pic of Robert Lauv"></img>
                 </div>
             </div>
+            <Navbar />
         </div>
     );
 }

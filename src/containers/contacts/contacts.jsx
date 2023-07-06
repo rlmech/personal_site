@@ -1,5 +1,6 @@
 import React from 'react';
 import './contacts.css';
+import { Navbar } from '../../components'
 
 // import linkedin_icon from '../../assets/svgs/linkedin.svg'
 // import github_icon from '../../assets/svgs/github-mark.svg';
@@ -15,6 +16,7 @@ const Contacts = () => {
                     <p>Contacts</p>
                 </div>
             </div>
+            <Navbar />
         </div>
     );
 
