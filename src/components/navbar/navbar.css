@@ -4,9 +4,10 @@
     width: 10rem;
     height: 100vh;
     flex-direction: column;
-    background: var(--color-fg-2);
+    background: var(--color-navbar);
     right: 0px;
-    box-shadow: -3px 0 3px 1px;
+    box-shadow: -3px 0 3px 1px var(--color-navbar-shadow);
+    color: var(--color-navbar-text);
 }
 
 .navbar-icon {
@@ -17,15 +18,25 @@
 }
 
 .navbar-list {
+    color: inherit;
     display: flex;
     flex-direction: column;
     transition: 0.5s ease-out;
 }
 
 .navbar-list li {
+    color: inherit;
     padding: 10%;
 }
 
+.navbar-list li a {
+    color: inherit;
+}
+
 .navbar-list li:hover {
-    background: var(--color-fg-1);
+    background: var(--color-navbar-2);
+}
+
+.navbar-list li:active {
+    background: var(--color-navbar-3);
 }
