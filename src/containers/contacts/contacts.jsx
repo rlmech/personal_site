@@ -1,13 +1,44 @@
 import React from 'react';
 import './contacts.css';
 import { Navbar } from '../../components'
-
-// import linkedin_icon from '../../assets/svgs/linkedin.svg'
-// import github_icon from '../../assets/svgs/github-mark.svg';
-// import pdf_icon from '../../assets/imgs/adobe_pdf.png'
-// import resume from '../../assets/files/resume.pdf'
+import { Link } from 'react-router-dom';
+import linkedin_icon from '../../assets/svgs/linkedin.svg'
+import github_icon from '../../assets/svgs/github-mark.svg';
+import pdf_icon from '../../assets/imgs/adobe_pdf.png'
+import resume from '../../assets/files/resume.pdf'
 
 const Contacts = () => {
+    const text = "hello";
+    const contactables = [
+        {
+            name: "GitHub",
+            link: "https://github.com/rlmech",
+            image: github_icon,
+            alt: "GitHub logo"
+        }, 
+        {
+            name: "LinkedIn",
+            link: "https://www.linkedin.com/in/robertlauv/",
+            image: linkedin_icon,
+            alt: "LinkedIn logo"
+        }, 
+        {
+            name: "Resume",
+            link: resume,
+            image: pdf_icon,
+            alt: "pdf file img"
+        }
+    ]
+    const insertContacts = contactables.map((contact) => {
+        return (
+            <li class="contactable">
+                <a href={contact.link} target="_blank">
+                    <img alt={contact.alt} src={contact.image}></img>
+                    <p>Click to check out my {contact.name}!</p>
+                </a>
+            </li>
+        )
+    })
 
     return (
         <div className="page-screen-background" id="contacts">
@@ -15,43 +46,13 @@ const Contacts = () => {
                 <div className="page-title">
                     <p>Contacts</p>
                 </div>
+                <ul className="contactables">
+                    {insertContacts}
+                </ul>
             </div>
             <Navbar />
         </div>
     );
-
-    // render() {
-    //     return(
-    //         <div class="bottom-icons">
-    //             <div id="contact">
-    //                 <ul class="bottom-icons">
-    //                     {/* LinkedIn */}
-    //                     <li class="bottom-icons">
-    //                         <a target="_blank" href="https://www.linkedin.com/in/robertlauv/">
-    //                             <img class="logo" alt="LinkedIn logo" src={linkedin_icon}></img>
-    //                             {/* https://brand.linkedin.com/policies */}
-    //                         </a>
-    //                     </li>
-    //                     {/* Github */}
-    //                     <li class="bottom-icons">
-    //                         <a target="_blank" href="https://github.com/rlmech">
-    //                             <img class="logo" alt="GitHub logo" src={github_icon}></img>
-    //                             {/* https://github.com/logos */}
-    //                         </a>
-    //                     </li>
-    //                     {/* Resume */}
-    //                     <li class="bottom-icons">
-    //                         <a target="_blank" href={resume}>
-    //                             <img class="logo" alt="pdf file img" src={pdf_icon}></img>
-    //                             {/* https://www.adobe.com/legal/permissions/icons-web-logos.html */}
-    //                         </a>
-    //                     </li>
-    //                 </ul>
-    //             </div>
-
-    //         </div>
-    //     );
-    // }
 }
 
 export default Contacts;

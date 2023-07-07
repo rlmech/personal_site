@@ -2,9 +2,6 @@ import React from 'react';
 import './navbar.css'
 import { Link } from 'react-router-dom';
 
-
-
-
 function Navbar () {
 
     const [navActive, setNavActive] = React.useState(false);
