@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/personal_site/static/css/main.75251b7c.css",
-    "main.js": "/personal_site/static/js/main.704ca41b.js",
+    "main.css": "/personal_site/static/css/main.6c5de7ac.css",
+    "main.js": "/personal_site/static/js/main.a819d84c.js",
     "static/media/rlauv.png": "/personal_site/static/media/rlauv.4db2a9fba9cbc304c979.png",
     "static/media/robert_img.jpg": "/personal_site/static/media/robert_img.37521816b660d1124ec2.jpg",
     "static/media/project_old_site.jpg": "/personal_site/static/media/project_old_site.9d605b6d4f92d1fa69fd.jpg",
     "static/media/BCeater-right.png": "/personal_site/static/media/BCeater-right.fa7e137299182c99abc2.png",
     "static/media/project_zotsperminute.png": "/personal_site/static/media/project_zotsperminute.d0c081573be0fc6017c9.png",
     "static/media/project_personal_site.jpg": "/personal_site/static/media/project_personal_site.52d81985cd06563d356e.jpg",
+    "static/media/resume.pdf": "/personal_site/static/media/resume.cfedfa4416fb1feda6a4.pdf",
+    "static/media/github-mark.svg": "/personal_site/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/personal_site/index.html",
-    "main.75251b7c.css.map": "/personal_site/static/css/main.75251b7c.css.map",
-    "main.704ca41b.js.map": "/personal_site/static/js/main.704ca41b.js.map"
+    "static/media/linkedin.svg": "/personal_site/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "main.6c5de7ac.css.map": "/personal_site/static/css/main.6c5de7ac.css.map",
+    "main.a819d84c.js.map": "/personal_site/static/js/main.a819d84c.js.map"
   },
   "entrypoints": [
-    "static/css/main.75251b7c.css",
-    "static/js/main.704ca41b.js"
+    "static/css/main.6c5de7ac.css",
+    "static/js/main.a819d84c.js"
   ]
 }
