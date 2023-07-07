@@ -1,14 +1,12 @@
 import React from 'react';
 import './contacts.css';
 import { Navbar } from '../../components'
-import { Link } from 'react-router-dom';
 import linkedin_icon from '../../assets/svgs/linkedin.svg'
 import github_icon from '../../assets/svgs/github-mark.svg';
 import pdf_icon from '../../assets/imgs/adobe_pdf.png'
 import resume from '../../assets/files/resume.pdf'
 
 const Contacts = () => {
-    const text = "hello";
     const contactables = [
         {
             name: "GitHub",
@@ -32,7 +30,7 @@ const Contacts = () => {
     const insertContacts = contactables.map((contact) => {
         return (
             <li class="contactable">
-                <a href={contact.link} target="_blank">
+                <a href={contact.link} target="_blank" rel="noreferrer">
                     <img alt={contact.alt} src={contact.image}></img>
                     <p>Click to check out my {contact.name}!</p>
                 </a>
