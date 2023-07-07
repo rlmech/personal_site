@@ -19,10 +19,19 @@
 }
 
 .navbar-list {
+    opacity: 0;
     color: inherit;
-    display: flex;
+    display: inherit;
     flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s;
 }
+
+.navbar-list-active {
+    opacity: 1;
+    transform: translate(0%, 0%);
+}
+
 
 .navbar-list li {
     color: inherit;
