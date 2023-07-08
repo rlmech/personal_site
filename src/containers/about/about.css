@@ -1,54 +1,26 @@
-.about-text {
-    padding-left: 5%;
-    width: 40%;
-    font-size: 1.5rem;
-    /* max-height: 30%; */
+.section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.petr_img {
-    position: absolute;
-    left: 20%;
-    bottom: 2%;
-    width: 30%;
+.section-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
+    word-wrap: wrap;
 }
 
-.robert_img {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    right: 10%;
-    width: 40%;
-    height: 60%;
-    border-radius: 75%;
-    overflow: hidden;
+.section-text p {
+    margin-bottom: 10px;
 }
 
-.robert_img img {
-    width: 100%;
-    height: 100%;
+.section-wrapper img {
+    max-height: 300px;
     object-fit: contain;
 }
 
-@media screen and (max-width: 1200px) {
-    .about-text {
-        font-size: 1.4rem;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .about-text {
-        font-size: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .about-text {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .about-text {
-        font-size: 0.8rem;
-    }
+.bottomPageDecor {
+    max-width: 60%;
+    max-height: 300px;
 }

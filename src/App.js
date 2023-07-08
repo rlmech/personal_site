@@ -1,35 +1,53 @@
-import React, { Component } from 'react';
-import './App.css';
-import { Welcome, About, Experience, Projects, Contacts } from './containers';
-import { Navbar } from './components';
-import { Routes, Route } from 'react-router-dom';
+    import React from 'react';
+    import './App.css';
+    import { Welcome, About, Experience, Projects, Contacts, NotFound } from './containers';
+    import { Page } from './components';
+    import { Routes, Route } from 'react-router-dom';
 
-function NotFound (){
-  return (
-    <div className="NotFoundPage">
-      <Navbar />
-      <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
-        <p>The page you are trying to reach does not exist.</p>
-      </div>
-    </div>
-  )
-}
+    const pageData = [
+        {
+            path: "/",
+            element: <Welcome />
+        },
+        {
+            title: "ABOUT",
+            path: "/about",
+            element: <About />
+        },
+        {
+            title: "PROJECTS",
+            path: "/projects",
+            element: <Projects />
+        },
+        {
+            title: "EXPERIENCE",
+            path: "/experience",
+            element: <Experience />
+        },
+        {
+            title: "CONTACTS",
+            path: "/contacts",
+            element: <Contacts />
+        },
+        {
+            path: "*",
+            element: <NotFound />
+        }
+    ]
 
-class App extends Component {
-  render() {
-      return (
-      <div className="App">
-        <Routes>
-          <Route path="/" element={ <Welcome /> } />
-          <Route path="/about" element={ <About /> } />
-          <Route path="/projects" element={ <Projects /> } />
-          <Route path="/experience" element={ <Experience /> } />
-          <Route path="/contacts" element={ <Contacts /> } />
-          <Route path="*" element={ <NotFound /> } />
-        </Routes>
-      </div>
-    );
-  }
-}
-// 
-export default App;
+    const insertPages = pageData.map( (page) => {
+        console.log(page);
+        return <Route path={page.path} element={<Page pageContent={page} />} />
+    })
+
+    const App = () => {
+        return (
+        <div className="App">
+            <Routes>
+                {insertPages}
+            </Routes>
+        </div>
+        );
+    }
+    
+    export default App;

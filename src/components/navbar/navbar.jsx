@@ -26,6 +26,10 @@ function Navbar () {
             </div>
             <ul className={`navbar-list ${navActive ? 'navbar-list-active' : null}`}>
                 {insertNavItems}
+                {/* <div className="darkmode-switch">
+                    <p>Dark Mode</p>
+                    <button>AA</button>
+                </div> */}
             </ul>
         </nav>
     );

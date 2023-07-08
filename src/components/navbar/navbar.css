@@ -1,27 +1,31 @@
 .navbar {
     position: absolute;
-    display: flex;
-    height: 100vh;
-    flex-direction: row;
-    background: var(--color-navbar);
     right: 0px;
+
+    display: flex;
+    flex-direction: row;
+    
+    background: var(--color-navbar);
     box-shadow: -3px 0 3px 1px var(--color-navbar-shadow);
     color: var(--color-navbar-text);
-    transition: 0.5s;
 }
 
 .navbar-icon {
-    display: inherit;
+    display: flex;
+    align-items: stretch;
     align-items: center;
+
     cursor: pointer;
+
     box-shadow: 3px 0 3px 1px var(--color-navbar-shadow);
     font-size: 2rem;
 }
 
 .navbar-list {
-    color: inherit;
-    display: inherit;
+    display: flex;
     flex-direction: column;
+
+    color: inherit;
 }
 
 .navbar-list li {
@@ -33,15 +37,20 @@
 .navbar-list li a {
     display: block;
     padding: 2rem;
+    
     color: inherit;
     font-size: 1rem;
+}
+
+.darkmode-switch {
+    display: sticky;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: red;
 }
 
 .navbar-list li:hover {
     box-shadow: inset 200px 0 0 0 var(--color-navbar-2);
     background: var(--color-navbar-2);
-}
-
-.navbar-list li:active {
-    background: var(--color-navbar-3);
 }

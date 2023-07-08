@@ -1,6 +1,5 @@
 import React from 'react';
 import './contacts.css';
-import { Navbar } from '../../components'
 import linkedin_icon from '../../assets/svgs/linkedin.svg'
 import github_icon from '../../assets/svgs/github-mark.svg';
 import pdf_icon from '../../assets/imgs/adobe_pdf.png'
@@ -39,17 +38,9 @@ const Contacts = () => {
     })
 
     return (
-        <div className="page-screen-background" id="contacts">
-            <div className="page-foreground">
-                <div className="page-title">
-                    <p>Contacts</p>
-                </div>
-                <ul className="contactables">
-                    {insertContacts}
-                </ul>
-            </div>
-            <Navbar />
-        </div>
+        <ul className="contactables">
+            {insertContacts}
+        </ul>
     );
 }
 
