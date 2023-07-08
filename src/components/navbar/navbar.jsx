@@ -22,14 +22,10 @@ function Navbar () {
     return (
         <nav className="navbar">
             <div className="navbar-icon" onClick={toggleActive}>
-                <p>&lt;&lt;</p>
+                {((navActive) && <><p>&gt;&gt;</p></>) || <><p>&lt;&lt;</p></>}
             </div>
-            <ul className={`navbar-list ${navActive ? 'navbar-list-active' : null}`}>
+            <ul className={`navbar-list`}>
                 {insertNavItems}
-                {/* <div className="darkmode-switch">
-                    <p>Dark Mode</p>
-                    <button>AA</button>
-                </div> */}
             </ul>
         </nav>
     );

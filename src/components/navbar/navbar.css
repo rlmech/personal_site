@@ -42,14 +42,6 @@
     font-size: 1rem;
 }
 
-.darkmode-switch {
-    display: sticky;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    background-color: red;
-}
-
 .navbar-list li:hover {
     box-shadow: inset 200px 0 0 0 var(--color-navbar-2);
     background: var(--color-navbar-2);
