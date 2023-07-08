@@ -7,10 +7,10 @@
 }
 
 .page-foreground {  
-    margin-top: 2vh;
-    width: 98%;
+    width: 96%;
     min-height: 96vh;
-    height: 96%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 
     background-color: var(--color-fg-2);
     box-shadow: 3px 4px var(--color-shadow);

@@ -1,14 +1,14 @@
 .section-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+}
+
+.has-img .section-text {
+    width: 60%;
 }
 
 .section-text {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 60%;
-    word-wrap: wrap;
+    margin: 5% 5% 5% 5%;
 }
 
 .section-text p {
@@ -20,7 +20,28 @@
     object-fit: contain;
 }
 
+.section-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: center;
+}
+
 .bottomPageDecor {
     max-width: 60%;
     max-height: 300px;
+}
+
+@media screen and (max-width: 500px) {
+    .has-img .section-text {
+        width: 80%;
+    }
+
+    .section-wrapper {
+        flex-direction: column;
+    }
 }
