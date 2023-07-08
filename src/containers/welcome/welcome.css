@@ -38,6 +38,7 @@
 
 .welcome-navbar {
     position: absolute;
+    max-height: 40%;
     bottom: 10px;
     left: 40px;
 }
@@ -88,7 +89,15 @@
 }
 
 @media screen and (max-width: 400px) {
+    .welcome-text p {
+        font-size: 3rem;
+    }
+
+    .welcome-navbar-list {
+        flex-direction: column;
+    }
+
     .welcome-navbar-list li {
-        font-size: 0.8rem;
+        font-size: 2rem;
     }
 }

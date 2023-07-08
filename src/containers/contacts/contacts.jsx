@@ -37,10 +37,42 @@ const Contacts = () => {
         )
     })
 
+    const emailForm = <>
+        <div className="email-form-container">
+            <div className="email-form">
+                <div className="name-fields">
+                    <div className="wrap-field">
+                        <p>First Name</p>
+                        <input type="text" id="fname" placeholder="First Name"></input>
+                    </div>
+                    <div className="wrap-field">
+                        <p>Last Name</p>
+                        <input type="text" id="lname" placeholder="Last Name"></input>
+                    </div>
+                </div>
+
+                <div className="wrap-field">
+                    <p>Email</p>
+                    <input type="text" id="email" placeholder="Your Email"></input>
+                </div>
+                <div className="wrap-field">
+                    <p>Message</p>
+                    <textarea id="message" maxLength="2000" placeholder="Message Contents"></textarea>
+                </div>
+                <div className="sendButton">
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
+    </>
+
     return (
+        <>
         <ul className="contactables">
             {insertContacts}
         </ul>
+        {emailForm}
+        </>
     );
 }
 
