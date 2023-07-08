@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal_site/static/css/main.71191022.css",
-    "main.js": "/personal_site/static/js/main.b148b6d1.js",
+    "main.css": "/personal_site/static/css/main.906de782.css",
+    "main.js": "/personal_site/static/js/main.405896ef.js",
     "static/media/rlauv.png": "/personal_site/static/media/rlauv.4db2a9fba9cbc304c979.png",
     "static/media/robert_img_compressed.jpg": "/personal_site/static/media/robert_img_compressed.f3b432635779e556e6ff.jpg",
     "static/media/project_old_site.jpg": "/personal_site/static/media/project_old_site.9d605b6d4f92d1fa69fd.jpg",
@@ -12,11 +12,11 @@
     "static/media/github-mark.svg": "/personal_site/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/personal_site/index.html",
     "static/media/linkedin.svg": "/personal_site/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.71191022.css.map": "/personal_site/static/css/main.71191022.css.map",
-    "main.b148b6d1.js.map": "/personal_site/static/js/main.b148b6d1.js.map"
+    "main.906de782.css.map": "/personal_site/static/css/main.906de782.css.map",
+    "main.405896ef.js.map": "/personal_site/static/js/main.405896ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.71191022.css",
-    "static/js/main.b148b6d1.js"
+    "static/css/main.906de782.css",
+    "static/js/main.405896ef.js"
   ]
 }
