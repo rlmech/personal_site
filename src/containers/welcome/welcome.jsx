@@ -6,6 +6,7 @@ const Welcome = () => {
     return (
         <div className="welcome-screen">
             <div className="welcome-fg">
+                <div className="welcome-logo"></div>
                 <div className="welcome-text">
                     <p>WELCOME</p>
                 </div>
