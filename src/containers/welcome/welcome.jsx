@@ -15,7 +15,7 @@ const Welcome = () => {
                         <li><Link to="/about">ABOUT</Link></li>
                         <li><Link to="/projects">PROJECTS</Link></li>
                         <li><Link to="/experience">EXPERIENCE</Link></li>
-                        <li><Link to="/contacts">CONTACT</Link></li>
+                        <li><Link to="/contacts">CONTACTS</Link></li>
                     </ul>
                 </div>
             </div>
