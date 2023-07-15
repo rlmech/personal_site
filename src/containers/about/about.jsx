@@ -9,7 +9,7 @@ const About = () => {
         {
             textcontents: <>
                 <p>My name is Robert Lauv. I'm currently a third year pursuing a B.S. in Computer Science at University of California, Irvine.</p>
-                <p>I enjoy solving problems and am</p>
+                <p>I enjoy solving problems and am interested in machine learning technology, data management, and web development.</p>
                 <p>My pastimes include eating, hanging out with friends, asking random questions about life, 
                     and playing games like Chess, Valorant, Terraria, etc.</p>
             </>,
