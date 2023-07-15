@@ -31,82 +31,11 @@
     padding-right: 5px;
 }
 
-.email-form-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.email-form {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-navbar);
-    border-radius: 10px;
-    border: 1px solid red;
-    box-shadow: 2px 3px 2px 3px var(--color-shadow);
-}
-
-.email-form input, textarea {
-    min-height: 2rem;
-    border-radius: 5px;
-}
-
-.email-form textarea {
-    resize: none;
-}
-
-.email-form .wrap-field {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 1rem;
-}
-
-.email-form .name-fields {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.email-form .name-fields .wrap-field {
-    width: 40%;
-}
-
-.email-form .name-fields .wrap-field #fname, #lname {
-    width: 100%;
-}
-
-.email-form .wrap-field #email,
-.email-form #message {
-    width: 80%;
-}
-
-.email-form .wrap-field #message {
-    width: 80%;
-    min-height: 300px;
-}
-
-.email-form .sendButton {
-    position: relative;
-    width: 100%;
-    min-height: 2rem;
-    min-width: 100px;
-}
-
-.email-form .sendButton button {
+.email-button {
     position: absolute;
-    width: 20%;
-    height: 80%;
-    right: 5%;
+    right: 4%;
+    bottom: 2%;
+    border-radius: 4px;
+    border: 2px solid red;
+    background-color: var(--color-fg-1);
 }
