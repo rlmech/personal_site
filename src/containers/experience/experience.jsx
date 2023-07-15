@@ -30,9 +30,9 @@ const Experience = () => {
         return entries.map( (entry) => {
             return (
                 <>
-                <div className="volunteerEntry">
+                <div className="entry">
                     <p className="entryTitle">{entry.name}</p>
-                    <p className="entryDescription">{entry.description}</p>    
+                    <p className="entryDescription">{entry.description}</p>
                 </div>
                 </>
             )
