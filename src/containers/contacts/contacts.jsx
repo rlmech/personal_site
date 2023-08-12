@@ -2,8 +2,6 @@ import React from 'react';
 import './contacts.css';
 import linkedin_icon from '../../assets/svgs/linkedin.svg'
 import github_icon from '../../assets/svgs/github-mark.svg';
-import pdf_icon from '../../assets/imgs/adobe_pdf.png'
-import resume from '../../assets/files/resume.pdf'
 
 const Contacts = () => {
     const contactables = [
