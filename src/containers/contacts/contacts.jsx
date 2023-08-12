@@ -18,13 +18,7 @@ const Contacts = () => {
             link: "https://www.linkedin.com/in/robertlauv/",
             image: linkedin_icon,
             alt: "LinkedIn logo"
-        }, 
-        {
-            name: "Resume",
-            link: resume,
-            image: pdf_icon,
-            alt: "pdf file img"
-        },
+        }
     ]
     const insertContacts = contactables.map((contact) => {
         return (
